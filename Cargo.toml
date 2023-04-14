@@ -1,0 +1,12 @@
+[package]
+name = "switch-the-square"
+version = "0.1.0"
+edition = "2021"
+description = "Switch the square"
+authors = [ "IsaacShelton <isaac.a.shelton@gmail.com>" ]
+
+[profile.dev.package.'*']
+opt-level = 3
+
+[dependencies]
+macroquad = "0.3.25"
